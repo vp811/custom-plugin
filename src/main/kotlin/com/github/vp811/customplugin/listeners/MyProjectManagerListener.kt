@@ -1,8 +1,8 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.vp811.customplugin.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.vp811.customplugin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
